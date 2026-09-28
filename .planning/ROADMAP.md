@@ -195,7 +195,13 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 **Notes for planning:**
 - **Depends on:** Nothing (first phase)
-- **Plans:** TBD
+- **Plans:** 2 plans
+  - [ ] 01-01-PLAN.md — Sixth-stage delivery kit: `prompts/delivery/` directory,
+    `HANDOFF.md`/`D01-dispatch.md` wired end-to-end, R-080 tracking note, reusable six-stage
+    check script (immediately executable, no external file dependency)
+  - [ ] 01-02-PLAN.md — Six-stage declaration in `PIPELINE.md`, `README.md`, and
+    `prompts/documentation/HANDOFF.md` (precondition-gated on the user supplying these three
+    currently-absent files)
 - **This phase is the root of the delivery half.** The sixth-stage directory it creates is where
   NIGHT100-20 to NIGHT100-50, MORNING100-10 to MORNING100-60, DEMO100-10 to DEMO100-40 and
   REPORT100-10 all write. Nothing in Phases 2, 3, 4 or 5 can land before it.

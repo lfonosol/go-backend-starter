@@ -1,0 +1,53 @@
+{
+  "contract": "1.0.0",
+  "flavor": "core",
+  "milestone": "v1",
+  "phases": [
+    {
+      "number": "1",
+      "name": "Open the sixth stage and dispatch the night",
+      "status": "pending"
+    },
+    {
+      "number": "2",
+      "name": "A night that bounds itself",
+      "status": "pending"
+    },
+    {
+      "number": "3",
+      "name": "The morning opens on ranked decisions",
+      "status": "pending"
+    },
+    {
+      "number": "4",
+      "name": "One pack for the daily session",
+      "status": "pending"
+    },
+    {
+      "number": "5",
+      "name": "Generated, not hand-assembled",
+      "status": "pending"
+    },
+    {
+      "number": "6",
+      "name": "The handover site says what each area is for",
+      "status": "pending"
+    },
+    {
+      "number": "7",
+      "name": "Close the two open return paths",
+      "status": "pending"
+    },
+    {
+      "number": "8",
+      "name": "Hardening — the signature apparatus leaves the kit",
+      "status": "pending"
+    }
+  ],
+  "next": {
+    "command": "/gsd-progress --next",
+    "label": "Advance to the next step",
+    "reason": "Phase 1 of 8 · 0% · executing"
+  },
+  "updated_at": "2026-09-28T09:23:24.776Z"
+}

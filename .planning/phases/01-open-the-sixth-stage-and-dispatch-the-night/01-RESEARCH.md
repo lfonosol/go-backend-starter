@@ -561,7 +561,7 @@ table** — those are CONTEXT.md decisions, already user-facing and flagged as "
 under autopilot" in their own text; this research does not add new assumption risk to them, only
 carries them forward verbatim.
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **What is the actual execution substrate for the overnight run?**
    - What we know: it's not a scheduled/cron trigger (D-04), and it can't depend on the
@@ -570,6 +570,9 @@ carries them forward verbatim.
      something else — no source in this package says.
    - Recommendation: raise with the user as a `checkpoint:human-verify` before finalizing Phase 1's
      plan; do not let the plan silently assume a specific mechanism.
+   - **RESOLVED: deferred to execution-time checkpoint — `01-01-PLAN.md` Task 1 carries a
+     `<human-check>` on this exact question. Planning does not silently assume a mechanism; the
+     deferral is structural, not a dropped question.**
 
 2. **What exact content do `PIPELINE.md`, `README.md`, and `prompts/documentation/HANDOFF.md`
    currently carry?**
@@ -579,6 +582,9 @@ carries them forward verbatim.
    - Recommendation: block the exact edit-diff tasks on the user supplying these files; use the
      cited line numbers only as a sanity check once supplied, per `## Five-Stage → Six-Stage Edit
      Sites`.
+   - **RESOLVED: deferred to `01-02-PLAN.md`'s per-task `<precondition>` + `<human-check>` gates —
+     each of that plan's three tasks names its required file and halts
+     (`checkpoint:human-verify gate="blocking-human"`) rather than fabricating edit content.**
 
 3. **Does the sibling `HANDOFF.md` convention (once the real `prompts/documentation/HANDOFF.md` is
    supplied) use section names beyond "Declared outputs" and "Lessons" that this phase's new
@@ -587,6 +593,8 @@ carries them forward verbatim.
    - What's unclear: the full section list/order of a real `HANDOFF.md` file.
    - Recommendation: once `prompts/documentation/HANDOFF.md` is supplied, mirror its full section
      structure rather than inventing a new shape from the two known section names alone.
+   - **RESOLVED: deferred to `01-02-PLAN.md` Task 3's `<human-check>` on `prompts/documentation/HANDOFF.md`'s
+     section vocabulary, carried forward from the same file-supply gate as Open Question 2.**
 
 ## Environment Availability
 
